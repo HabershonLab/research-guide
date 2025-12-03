@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# HabershonLab Research Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This repository contains useful links and resources for researchers in the research group of Prof. Scott Habershon in the Department of Chemistry at the University of Warwick.
 
-## Commands
+Here, you will find information covering:
+* Useful software for computationa chemistry
+* Useful coding resources
+* Information about using HPC at Warwick
+* Style guidelines for graphs, papers, posters and presentations
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
