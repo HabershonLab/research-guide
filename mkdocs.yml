@@ -1,0 +1,4 @@
+site_name: HabershonLab Research Guide
+site_url: https://HabershonLab.github.io/research-guide
+theme:
+  name: material 
