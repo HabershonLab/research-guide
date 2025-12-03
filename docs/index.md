@@ -1,4 +1,4 @@
-# HabershonLab Research Guide
+# Welcome
 
 This repository contains useful links and resources for researchers in the research group of Prof. Scott Habershon in the Department of Chemistry at the University of Warwick.
 
