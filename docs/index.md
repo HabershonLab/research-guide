@@ -7,6 +7,6 @@ Here, you will find information covering:
 * Useful software for computational chemistry
 * Useful coding resources
 * Information about using HPC at Warwick
-* Style guidelines for graphs, papers, posters and presentations
+* Suggested style guidelines for graphs, papers, posters and presentations
 
 
