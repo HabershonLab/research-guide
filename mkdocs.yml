@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: HabershonLab research guide 
+nav:
+    - Home: index.md
+    - Notebook page: Graphs.ipynb
+    - Python file: python_script.py
+plugins:
+    - mkdocs-jupyter
