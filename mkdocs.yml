@@ -1,11 +1,22 @@
-site_name: HabershonLab research guide 
+site_name: mkdocs-jupyterlite
+site_url: https://nickcrews.github.io/mkdocs-jupyterlite/
+repo_url: https://github.com/nickcrews/mkdocs-jupyterlite/
+
 nav:
-    - Home: index.md
-    - Notebook page: Graphs.ipynb
+  - Home: index.md
+  - Notebook In Root: notebook.ipynb
+  - Directory:
+      - Notebook In Directory: directory/notebook.ipynb
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+
+extra_css:
+  - extra.css
 
 plugins:
-  - search
-  - mkdocs-jupyter:
-      execute: false
-      include_requirejs: true
-      custom_mathjax_url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"
+  - jupyterlite:
+      enabled: true
+      notebook_patterns:
+        - '*.ipynb'
