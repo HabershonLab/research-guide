@@ -7,7 +7,7 @@ edit_uri: ""
 nav:
   - Home: index.md
   - Graph guidelines: Graphs.ipynb
-  - Computing helps: computing.md
+  - Computing help: computing.md
   
 theme:
   name: material
