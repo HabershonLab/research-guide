@@ -6,4 +6,4 @@ This repo contains a simple set of Jupyter notebooks and related scripts that pe
 
 ▶️ 
 
-o guarantee or warranty is provided for any of the software or codes highlighted or presented in this repository; users shoudl always check their own results carefully.
+ guarantee or warranty is provided for any of the software or codes highlighted or presented in this repository; users shoudl always check their own results carefully.
