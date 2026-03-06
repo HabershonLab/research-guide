@@ -17,15 +17,15 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: deep orange
-      accent: deep orange
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: deep orange
-      accent: deep orange
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
