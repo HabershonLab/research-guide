@@ -1,22 +1,53 @@
-site_name: mkdocs-jupyterlite
-site_url: https://nickcrews.github.io/mkdocs-jupyterlite/
-repo_url: https://github.com/nickcrews/mkdocs-jupyterlite/
+site_name: mkdocs-jupyter demo
+site_description: mkdocs-jupyter demo website
+site_url: https://mkdocs-jupyter.danielfrg.com
+site_author: Daniel Rodriguez
+repo_url: https://github.com/danielfrg/mkdocs-jupyter
+edit_uri: ""
 
 nav:
   - Home: index.md
-  - Notebook In Root: notebook.ipynb
-  - Directory:
-      - Notebook In Directory: directory/notebook.ipynb
+  - Markdown Cheatsheet in .md file: demo-md.md
+  - Jupyter Notebook Markdown: demo-nb-md.ipynb
+  - Jupyter Notebook Cells: demo-nb.ipynb
+  - A .py file (jupytext): demo-script.py
+  - Demo - Ruby Notebook: ruby.ipynb
+  - Demo - Variational inference nb: variational-inference-nb.ipynb
+  - Demo - Variational inference script: variational-inference-script.py
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
   - pymdownx.snippets:
       check_paths: true
-
-extra_css:
-  - extra.css
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
 
 plugins:
-  - jupyterlite:
-      enabled: true
-      notebook_patterns:
-        - '*.ipynb'
+  - search
+  - mkdocs-jupyter:
+      execute: false
