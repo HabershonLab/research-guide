@@ -9,3 +9,7 @@
 ## `GitHub` pages
 
 This site is published as a `github pages` site; you can find the main documentation [here](https://docs.github.com/en/pages).
+
+## Markdown
+
+A useful markdown cheat-sheet is [here](https://www.markdownguide.org/cheat-sheet/).
