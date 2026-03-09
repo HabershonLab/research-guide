@@ -10,9 +10,3 @@ This guide contains:
 
 This is a living document that will be updated when time allows....
 
-## Documentation layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, notebooks, and other files.
