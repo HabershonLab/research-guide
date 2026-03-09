@@ -1,4 +1,4 @@
-# site_name: HabershonLab research guide
+site_name: HabershonLab research guide
 site_url: https://HabershonLab.github.io/research-guide
 site_author: Scott Habershon
 repo_url: https://github.com/HabershonLab/research-guide
@@ -6,7 +6,7 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - Graph guidelines: Graphs.ipynb
+  - Basic graphs: Graphs.ipynb
   - Computing help: computing.md
   
 theme:
